@@ -1,0 +1,23 @@
+{
+    "name": "rokorolov/yii2-fontawesome-asset",
+    "description": "Is a bundle for iconic font and CSS framework - Font Awesome",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","icon","font","asset","fontawesome"],
+    "homepage": "https://github.com/rokorolov/yii2-fontawesome-asset",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "rokorolov",
+            "email": "rokorolov@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": ">=2.0.6",
+        "bower-asset/fontawesome": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "rokorolov\\fontawesome\\": "src"
+        }
+    }
+}
